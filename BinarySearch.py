@@ -1,42 +1,23 @@
 import math
 
-def printRange(srange):
-    for r in srange:
-        print(r + ', ')
+def binary_search(list, item):
+    low = 0 # Pozycja pierwszego elementu
+    high = len(list) - 1 # Pozycja ostatniego elementu
+    while low <= high:
+        # Oblicz pozycję elementu środkowego
+        mid = int((low + high) / 2)
+        # Srodkowy element
+        result = list[mid]
+        # Jeśli znaleziono
+        if result == item:
+            return result
+        if result > item:
+            high = mid - 1
+        else:
+            low = mid + 1
+    return None
 
-
-# Podaj liczbę początkową zakresu
-fNumber = int(input("Podaj pierwszą liczbę zakresu: "))
-# Podaj liczbę końcową zakresu
-lNumber = int(input("Podaj ostatnią liczbę zakresu: "))
-# Liczba końcowa musi być większa od początkowej
-if lNumber <= fNumber:
-    print("Ostatnia liczba zakresu musi być większa od pierwszej!")
-else:
-    # Licznik
-    count = 1
-    # Zakres
-    #sRange = list(range(fNumber, lNumber))
-    # Podaj szukaną liczbę
-    sNumber = int(input("Podaj szukaną liczbę: "))
-    # Szukana liczba musi należeć do zakresu
-    if sNumber < fNumber or sNumber > lNumber:
-        print("Liczba nie należy do zakresu!")
-    else:
-        # Jeśli liczba należy do zakresu
-        cNumber = fNumber
-        # Liczby
-        #print(sRange)
-        while 1:
-            sRange = list(range(fNumber, lNumber + 1))
-            print(f"{count}: {sRange}\n")
-            count += 1
-            cNumber = math.ceil((lNumber - fNumber) / 2) + fNumber
-            if cNumber == sNumber:
-                print(f"*** Znaleziono liczbę: {sNumber} ***")
-                break
-            else:
-                if cNumber < sNumber:
-                    fNumber = cNumber
-                else:
-                    lNumber = cNumber
+# Testowe dane
+test_data = list(range(1, 1024, 2))
+# Wyszukaj i zwróć pozycję
+print(binary_search(test_data, 45))
