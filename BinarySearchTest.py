@@ -1,16 +1,16 @@
 from BinarySearch import binary_search
 
 print("*** WYSZUKIWANIE BINARNE ***")
-# Początek zakresu
-lNumber = int(input("Początek zakresu: "))
+# Poczatek zakresu
+lNumber = int(input("Poczatek zakresu: "))
 # Koniec zakresu
 hNumber = int(input("Koniec zakresu: "))
-# Początek zakresu musi być większy od końca
+# Poczatek zakresu musi byc wiekszy od konca
 if lNumber < hNumber:
     sNumber = int(input("Szukana liczba: "))
     # Testowe dane
     test_data = list(range(lNumber, hNumber, 1))
-    # Wyszukaj i zwróć pozycję
+    # Wyszukaj i zwroc pozycje
     print(binary_search(test_data, sNumber))
 else:
-    print("Początek zakresu musi być większy od końca!")
+    print("Poczatek zakresu musi byc wiekszy od konca!")
