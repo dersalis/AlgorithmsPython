@@ -1,4 +1,4 @@
-from BinarySearch import binary_search
+from BinarySearch import binary_search, binary_search_recurrent
 
 print("*** WYSZUKIWANIE BINARNE ***")
 # Poczatek zakresu
@@ -9,8 +9,11 @@ hNumber = int(input("Koniec zakresu: "))
 if lNumber < hNumber:
     sNumber = int(input("Szukana liczba: "))
     # Testowe dane
-    test_data = list(range(lNumber, hNumber, 1))
+    test_data = list(range(lNumber, hNumber + 1, 1))
     # Wyszukaj i zwroc pozycje
-    print(binary_search(test_data, sNumber))
+    #print(binary_search(test_data, sNumber))
+    result = binary_search_recurrent(test_data, sNumber)
+    print(f"*** {result} ***")
+
 else:
     print("Poczatek zakresu musi byc wiekszy od konca!")
