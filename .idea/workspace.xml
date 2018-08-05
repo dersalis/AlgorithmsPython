@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d748b9e-619a-4942-9ad0-e1292439fc71" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DivideAreaRecurrent.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/QuickSort.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/QuickSortTest.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch.py" afterPath="$PROJECT_DIR$/BinarySearch.py" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTest.py" afterPath="$PROJECT_DIR$/BinarySearchTest.py" />
-      <change beforePath="$PROJECT_DIR$/SelectionSortTest.py" afterPath="$PROJECT_DIR$/SelectionSortTest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="BinarySearchTest.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BinarySearchTest.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BinarySearchTest.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -39,11 +37,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DivideAreaRecurrent.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DivideAreaRecurrent.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DivideAreaRecurrent.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QuickSort.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/QuickSort.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -95,11 +103,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Rekurencja.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Rekurencja.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Rekurencja.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="320">
                   <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QuickSortTest.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/QuickSortTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -135,6 +153,8 @@
         <option value="$PROJECT_DIR$/BinarySearchTest.py" />
         <option value="$PROJECT_DIR$/BinarySearch.py" />
         <option value="$PROJECT_DIR$/DivideAreaRecurrent.py" />
+        <option value="$PROJECT_DIR$/QuickSort.py" />
+        <option value="$PROJECT_DIR$/QuickSortTest.py" />
       </list>
     </option>
   </component>
@@ -330,6 +350,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuickSortTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
